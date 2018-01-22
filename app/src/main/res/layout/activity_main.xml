@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3301D8"
+    android:layout_height="match_parent"
+    tools:context="com.example.jake.apogee.MainActivity">
+
+    <Button
+        android:id="@+id/timerActivityButton"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="19dp"
+        android:text="@string/timerActivityButtonLabel"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/alarmActivityButton"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/timerActivityButton"
+        android:layout_alignBottom="@+id/timerActivityButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="135dp"
+        android:text="@string/alarmActivityButtonLabel"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/countdownActivityButton"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/alarmActivityButton"
+        android:layout_alignBottom="@+id/alarmActivityButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:text="@string/countdownActivityButtonLabel"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</RelativeLayout>

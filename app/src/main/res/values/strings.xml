@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Apogee</string>
+    <string name="timerVal">00:00:00</string>
+    <string name="pauseButtonLabel">Pause</string>
+    <string name="startButtonLabel">Start</string>
+    <string name="timerActivityButtonLabel">Timer</string>
+    <string name="alarmActivityButtonLabel">Alarm</string>
+    <string name="countdownActivityButtonLabel">Count</string>
+    <string name="countdownButtonLabel">Start</string>
+    <string name="backButtonLabel">Back</string>
+</resources>

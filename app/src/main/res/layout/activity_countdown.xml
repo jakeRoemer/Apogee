@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#009FFF"
+    android:layout_height="match_parent"
+    tools:context="com.example.jake.apogee.CountdownActivity">
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButtonLabel"/>
+
+    <Button
+        android:id="@+id/countdownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:text="@string/countdownButtonLabel"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/countdownValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/countdownButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"/>
+
+</RelativeLayout>
