@@ -33,6 +33,9 @@
         <receiver android:name=".AlarmReceiverActivity" />
 
         <activity android:name=".CountdownActivity" />
+        <activity android:name=".TaskActivity" />
+        <activity android:name=".TaskDisplayActivity" />
+        <activity android:name=".NutritionActivity"></activity>
     </application>
 
 </manifest>

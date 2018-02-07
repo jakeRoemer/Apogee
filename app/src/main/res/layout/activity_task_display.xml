@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#009FFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jake.apogee.TaskDisplayActivity">
+
+    <RelativeLayout
+        android:id="@+id/taskInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Add"/>
+
+        <EditText
+            android:id="@+id/taskNameDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/addTaskButton"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/taskListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/taskDisplaySummary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/taskNameDisplay"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:textAppearance="@android:style/TextAppearance.Large"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/taskTimerValue"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:textAppearance="@android:style/TextAppearance.Large"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="@string/timerVal"/>-->
+
+        <!--<ToggleButton-->
+            <!--android:id="@+id/timerToggleButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:checked="false"-->
+            <!--android:onClick="OnToggleClicked"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<ScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/taskDisplaySummary">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/taskDescriptionDisplay"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:lineSpacingExtra="5sp"-->
+            <!--android:text="@string/taskDisplayTextFake"/>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>

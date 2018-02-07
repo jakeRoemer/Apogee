@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/taskDisplaySummary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <!--<Button-->
+        <!--android:id="@+id/removeTaskButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:text="Remove"/>-->
+
+    <TextView
+        android:id="@+id/taskout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/taskTimerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/timerToggleButton"
+        android:layout_toStartOf="@+id/timerToggleButton"
+        android:text="@string/timerVal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/timerToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:onClick="OnToggleClicked"/>
+</RelativeLayout>
